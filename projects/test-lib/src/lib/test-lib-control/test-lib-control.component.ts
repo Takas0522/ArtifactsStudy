@@ -16,7 +16,7 @@ import { NG_VALUE_ACCESSOR, ControlValueAccessor, FormControl } from '@angular/f
 export class TestLibControlComponent implements ControlValueAccessor {
 
   @Input()
-  placeholder = '';
+  placeholder = 'hogehoge';
   inputControl = new FormControl('');
   isDisabled = false;
 
