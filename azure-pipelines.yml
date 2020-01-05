@@ -18,5 +18,5 @@ steps:
 - script: |
     npm install -g @angular/cli
     npm install
-    ng build test-lib
+    npm run build:lib
   displayName: 'npm install and build'
