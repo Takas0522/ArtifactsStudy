@@ -23,5 +23,5 @@ steps:
     npm install -g @angular/cli
     npm install
     npm run build:lib
-    npm publish
+    npm publish dist\test-lib
   displayName: 'npm install ,build and publish'
